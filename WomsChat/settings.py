@@ -69,6 +69,7 @@ SESSION_SAVE_EVERY_REQUEST = True
 SESSION_COOKIE_AGE = 86400
 SESSION_COOKIE_NAME = 'DSESSIONID'
 SESSION_COOKIE_SECURE = False
+CSRF_COOKIE_SECURE = False
 
 TEMPLATES = [
     {
@@ -132,7 +133,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-SITE = 1
+SITE = 2
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
