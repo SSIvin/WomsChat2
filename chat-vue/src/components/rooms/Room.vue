@@ -36,7 +36,7 @@
             // Загружаю список комнат
             loadRoom() {
                 $.ajax({
-                    url: "http://127.0.0.1:8000/api/v1/chat/room/",
+                    url: "http://10.10.12.50:8000/api/v1/chat/room/",
                     type: "GET",
                     success: (response) => {
                         this.rooms = response.data.data
@@ -50,7 +50,7 @@
             // Создание комнаты
             addRoom() {
                 $.ajax({
-                    url: "http://127.0.0.1:8000/api/v1/chat/room/",
+                    url: "http://10.10.12.50:8000/api/v1/chat/room/",
                     type: "POST",
                     success: (response) => {
                         this.loadRoom()
