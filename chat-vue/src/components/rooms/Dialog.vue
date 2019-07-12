@@ -65,7 +65,7 @@
             // Загрузка диалога
             loadDialog() {
                 $.ajax({
-                    url: "http://10.10.12.50:8000/api/v1/chat/dialog/",
+                    url: "http://10.10.12.50/api/v1/chat/dialog/",
                     type: "GET",
                     data: {
                         room: this.$route.params.id
@@ -78,7 +78,7 @@
             // Отправка сообщения
             sendMes() {
                 $.ajax({
-                    url: "http://10.10.12.50:8000/api/v1/chat/dialog/",
+                    url: "http://10.10.12.50/api/v1/chat/dialog/",
                     type: "POST",
                     data: {
                         room: this.$route.params.id,

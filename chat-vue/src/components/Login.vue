@@ -18,7 +18,7 @@
         methods: {
             setLogin() {
                 $.ajax({
-                    url: "http://10.10.12.50:8000/auth/token/create/",
+                    url: "http://10.10.12.50/auth/token/create/",
                     type: "POST",
                     data: {
                         username: this.login,
