@@ -50,7 +50,7 @@
             // Создание комнаты
             addRoom() {
                 $.ajax({
-                    url: "http://10.10.12.50:8000/api/v1/chat/room/",
+                    url: "http://10.10.12.50/api/v1/chat/room/",
                     type: "POST",
                     success: (response) => {
                         this.loadRoom()
