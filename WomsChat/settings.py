@@ -63,24 +63,6 @@ MIDDLEWARE = [
 # SESSION_COOKIE_SECURE = True
 # AUTHENTICATION_BACKENDS = ('someproject.backends.EmailCheckModelBackend',)
 # ADMIN_MEDIA_PREFIX = '/static/admin/'
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'file': {
-            'level': 'DEBUG',
-            'class': 'logging.FileHandler',
-            'filename': '/home/ser/django/debug.log',
-        },
-    },
-    'loggers': {
-        'news': {
-            'handlers': ['file'],
-            'level': 'DEBUG',
-            'propagate': True,
-        },
-    },
-}
 
 ROOT_URLCONF = 'WomsChat.urls'
 
