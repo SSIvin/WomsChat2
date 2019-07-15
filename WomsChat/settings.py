@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '_zin8-l9i@6m7z=5a*y4g19blm-9(i$=@kfc62bpsc_3kf#grv'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -60,9 +60,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-SESSION_COOKIE_SECURE = True
-AUTHENTICATION_BACKENDS = ('someproject.backends.EmailCheckModelBackend',)
-ADMIN_MEDIA_PREFIX = '/static/admin/'
+# SESSION_COOKIE_SECURE = True
+# AUTHENTICATION_BACKENDS = ('someproject.backends.EmailCheckModelBackend',)
+# ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 ROOT_URLCONF = 'WomsChat.urls'
 
