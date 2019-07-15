@@ -60,6 +60,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+SESSION_COOKIE_SECURE = True
+
 ROOT_URLCONF = 'WomsChat.urls'
 
 TEMPLATES = [
