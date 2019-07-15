@@ -60,9 +60,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-# SESSION_COOKIE_SECURE = True
-# AUTHENTICATION_BACKENDS = ('someproject.backends.EmailCheckModelBackend',)
-# ADMIN_MEDIA_PREFIX = '/static/admin/'
+SESSION_COOKIE_SECURE = True
+AUTHENTICATION_BACKENDS = ('someproject.backends.EmailCheckModelBackend',)
+ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 ROOT_URLCONF = 'WomsChat.urls'
 
