@@ -64,6 +64,8 @@ SESSION_COOKIE_SECURE = True
 
 AUTHENTICATION_BACKENDS = ('someproject.backends.EmailCheckModelBackend',)
 
+ADMIN_MEDIA_PREFIX = '/static/admin/'
+
 ROOT_URLCONF = 'WomsChat.urls'
 
 TEMPLATES = [
