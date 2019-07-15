@@ -62,6 +62,8 @@ MIDDLEWARE = [
 
 SESSION_COOKIE_SECURE = True
 
+AUTHENTICATION_BACKENDS = ('someproject.backends.EmailCheckModelBackend',)
+
 ROOT_URLCONF = 'WomsChat.urls'
 
 TEMPLATES = [
